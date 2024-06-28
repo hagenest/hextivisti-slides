@@ -2,14 +2,10 @@
 marp: true
 theme: default
 paginate: true
-footer: "Überblick über Geräte, BIOS, Partitionen, Betriebssysteme"
+footer: "Geräte, BIOS, Partitionen, Betriebssysteme..."
 ---
 
 # Überblick über Geräte, BIOS, Partitionen, Betriebssysteme
-
-## Einführung
-
-Willkommen zu unserem Überblick über wichtige Konzepte rund um Computer und Betriebssysteme. Diese Präsentation richtet sich an Aktivist*innen mit unterschiedlicher technischer Vorbildung.
 
 ---
 
@@ -19,9 +15,11 @@ Willkommen zu unserem Überblick über wichtige Konzepte rund um Computer und Be
 
 - Wird beim Starten des Computers geladen
 - Startet den Bootloader des Betriebssystems
-- BIOS-Einstellungen werden gewöhnlicherweise mit einer Tastenkombination beim Start erreicht.
+- BIOS-Einstellungen werden mit einer herstellerabhängigen Tastenkombination beim Start aufgerufen.
 
-- Image von BIOS-Settings
+---
+
+![Beispiel-Bild von BIOS-Einstellungen](images/pheonix-bios.png)
 
 ---
 
@@ -35,7 +33,16 @@ Willkommen zu unserem Überblick über wichtige Konzepte rund um Computer und Be
 - Die allermeisten Computer der letzten 10 Jahre haben UEFI.
 - Relevant: Manche Betriebssysteme benötigen LEGACY-BOOT (BIOS-Kompatibilität)
 
-> **Grafik:** Bild von UEFI-Settings
+---
+
+![Beispiel-Bild von UEFI-Einstellungen](images/uefi.jpg)
+
+---
+
+## Betriebssystem
+
+- Steuert die Hardware und führt Anwendungen aus
+- Beispiele: Windows, macOS, Linux
 
 ---
 
@@ -46,17 +53,12 @@ Willkommen zu unserem Überblick über wichtige Konzepte rund um Computer und Be
 - Unterteilung einer Festplatte in mehrere Abschnitte
 - Ermöglicht die Installation mehrerer Betriebssysteme auf derselben Festplatte
 - Beim Start des Systems wird zuerst die 1. Partition, die Boot-Partition geladen.
-
-> **Grafik:** Beispiel einer Festplatte mit verschiedenen Partitionen: eine für das Betriebssystem, eine für Daten, eine für Backups.
+- Wird beim Installieren des Betriebssystems angelegt / modifiziert.
+- Kann mit Programmen wie Gnome Disks oder GParted verändert werden.
 
 ---
 
-## Betriebssystem
-
-**Headline**
-
-- Steuert die Hardware und führt Anwendungen aus
-- Beispiele: Windows, macOS, Linux
+![Bild von einer partitionierten SSD in Gnome Disks](images/disks.png)
 
 ---
 
@@ -66,23 +68,31 @@ Willkommen zu unserem Überblick über wichtige Konzepte rund um Computer und Be
 
 1. **Power-On Self-Test (POST)**
 2. **BIOS/UEFI Initialisierung**
-3. **Bootloader laden (z.B. GRUB)**
-4. **Betriebssystemkern starten**
+3. **Bootloader laden (bei Linux meistens GRUB)**
+4. **Betriebssystemkernel starten**
 5. **Systemdienste und Benutzeroberfläche laden**
 
-> **Grafik:** Ein Flussdiagramm des Bootprozesses mit den einzelnen Schritten.
+---
+
+![Diagramm mit den Boot-Schritten](images/boot.png)
 
 ---
 
 ## Linux
 
-**Ein freies und Open-Source-Betriebssystem**
+**Ein freies Betriebssystem**
 
-- Beliebt bei Entwicklern und für Server
-- Open-Source, Sicherheit kann nachvollzogen werden
-- Verschiedene Distributionen wie Ubuntu, Fedora, Debian
+- Open-Source
+- Weniger Ressourcenverbrauch als Windows => Läuft auch auf älteren Geräten
+- Verschiedene Distributionen wie Ubuntu, Fedora, Debian, openSUSE
 
-> **Grafik:** Linux-Logo und Logos einiger populärer Distributionen (Ubuntu, Fedora, Debian).
+---
+
+## Open Source / Freie Software
+
+- Software, deren Quellcode öffentlich zugänglich und frei nutzbar, veränderbar und verteilbar ist.
+- Entwickler sind oft Hobbyisten, aber auch viele Unternehmen veröffentlichen open-source Software.
+- Beispiele: Linux, Firefox, Android (teilweise), Krita, LibreOffice
 
 ---
 
@@ -93,8 +103,6 @@ Willkommen zu unserem Überblick über wichtige Konzepte rund um Computer und Be
 - Ein Sicherheitschip auf dem Mainboard
 - Speichert kryptographische Schlüssel
 - Unterstützt Funktionen wie Festplattenverschlüsselung und sichere Bootprozesse
-
-> **Grafik:** Ein Bild eines TPM-Chips auf einem Mainboard und ein Diagramm, das die Nutzung von TPM für die Festplattenverschlüsselung zeigt.
 
 ---
 
