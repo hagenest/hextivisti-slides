@@ -32,9 +32,16 @@ footer: 'Wie funktioniert IT-Sicherheit / Hacking?'
 
 ---
 
+# Zero-Day vulnerability
+
+- Sicherheitslücke, die dem Entwickler meist nicht bekannt ist und für die kein Fix verfügbar ist
+- Kann von Konzernen, Strafverfolgungsbehörden und Geheimdiensten auf dem Schwarzmarkt eingekauft werden. 
+
+---
+
 # Cellebrite
 
 - Firma für digitale Forensik
-- Kauft Exploits auf dem Schwarzmarkt
+- Kauft Zero-Day Vulnerabilities
 - Bietet Tools zur Datenextraktion von Mobilgeräten
 - Wird von einigen Strafvervolgungsbehörden eingekauft
