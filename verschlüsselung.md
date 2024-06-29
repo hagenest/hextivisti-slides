@@ -54,23 +54,31 @@ footer: 'Verschlüsselung'
 - Verschlüsselung ist seit Windows 10 Standard
 - Bei geringerem Thread-Modell vermutlich ausreichend bei starkem Passwort
 
+---
+
 # macOS
 
 - Verschlüsselung muss in den Einstellungen eingeschalten werden
 - Deaktiviert Option für Entschlüsselung über iCloud
 - Passwort **nicht** verlieren, kann auf neuen Macs nicht ohne weiteres zurückgesetzt werden!
 
+---
+
 # iOS
 
 - Verschlüsselung ist Standard und allgemein sicher
 - ABER: iCloud-Backups sind für Cops einfach zugänglich
-=> iCloud-Backups deaktivierne
+=> iCloud-Backups deaktivieren
 - (und iPhones sind teuer)
+
+---
 
 # Android
 
 - Verschlüsselung ist seit Android 3 verfügbar
 - Bei manchen Herstellern standardmäßig an, manchmal muss Verschlüsselung in den Geräteeinstellungen angeschalten werden
+
+---
 
 # Exploits wie Cellebrite
 
